@@ -1,0 +1,89 @@
+body {
+    min-height: 100vh;
+    background: radial-gradient(circle at top, #1e293b, #020617);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  
+.auth-box {
+    background: #020617;
+    padding: 35px;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 700px;
+    border: 1px solid #1e293b;
+    box-shadow: 0 0 25px rgba(56, 189, 248, 0.3);
+}
+  
+
+h2, h3, legend {
+    color: #38bdf8;
+}
+  
+label {
+    margin-top: 10px;
+    font-weight: 500;
+}
+  
+
+.form-control,
+.form-select,
+textarea {
+    background-color: #f8fafc !important; 
+    color: #020617 !important;
+    border: 1px solid #cbd5e1;
+}
+
+.form-control::placeholder,
+textarea::placeholder {
+    color: #94a3b8;
+}
+  
+
+.form-control:focus,
+.form-select:focus,
+textarea:focus {
+    background-color: #ffffff !important;
+    color: #020617 !important;
+    border-color: #38bdf8;
+    box-shadow: 0 0 0 0.15rem rgba(56, 189, 248, 0.35);
+}
+  
+
+fieldset {
+    border: 1px solid #1e293b;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+  
+legend {
+    font-size: 1rem;
+    padding: 0 8px;
+}
+
+
+.inline {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+  
+.buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+
+.btn-info {
+    background-color: #38bdf8;
+    border: none;
+}
+  
+.btn-info:hover {
+    background-color: #0ea5e9;
+}
+  
